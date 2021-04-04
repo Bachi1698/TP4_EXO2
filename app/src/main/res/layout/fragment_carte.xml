@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+       xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:id="@+id/edit_name"
+
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+
+    <TextView
+
+        android:id="@+id/lbl_your_name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Nom" />
+
+    <EditText
+
+        android:id="@+id/txt_your_name"
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:imeOptions="actionDone"
+
+        android:inputType="text" />
+
+    <TextView
+
+        android:id="@+id/lbl_your_name1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Prenom" />
+
+    <EditText
+
+        android:id="@+id/txt_your_name1"
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:imeOptions="actionDone"
+
+        android:inputType="text" />
+
+    <TextView
+
+        android:id="@+id/lbl_your_name2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Numéro de la carte" />
+
+    <EditText
+
+        android:id="@+id/txt_your_name2"
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:imeOptions="actionDone"
+
+        android:inputType="text" />
+
+    <TextView
+
+        android:id="@+id/lbl_your_name3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Code cvc" />
+
+    <EditText
+
+        android:id="@+id/txt_your_name3"
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:imeOptions="actionDone"
+
+        android:inputType="text" />
+
+    <TextView
+
+        android:id="@+id/lbl_your_name4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Date expiration" />
+
+    <EditText
+
+        android:id="@+id/txt_your_name4"
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:imeOptions="actionDone"
+
+        android:inputType="text" />
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@android:string/ok" />
+-->
+    </LinearLayout>

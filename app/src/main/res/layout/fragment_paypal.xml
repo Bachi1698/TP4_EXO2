@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/edit_name"
+
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+
+    <TextView
+
+        android:id="@+id/pseudo"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="pseudo " />
+
+    <EditText
+
+        android:id="@+id/pseudo1"
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:imeOptions="actionDone"
+
+        android:inputType="text" />
+
+    <TextView
+
+        android:id="@+id/mot_passe"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="mot de passe " />
+
+    <EditText
+
+        android:id="@+id/mot_passe1"
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:imeOptions="actionDone"
+
+        android:inputType="text" />
+
+
+    <Button
+        android:id="@+id/valide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@android:string/ok" />
+</LinearLayout>
